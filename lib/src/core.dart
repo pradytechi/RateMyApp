@@ -152,7 +152,7 @@ class RateMyApp {
     if (context.mounted) {
       // Using [showDialog()] when [TransitionType.none] to get rid of the default fading animation of [showGeneralDialog].
       clickedButton = dialogTransition.transitionType == TransitionType.none
-          ? await showDialog<RateMyAppDialogButton>(context: context, builder: (context) => rateMyAppDialog)
+          ? await showDialog<RateMyAppDialogButton>(context: context,barrierDismissible: false, builder: (context) => rateMyAppDialog)
           : await showGeneralDialog<RateMyAppDialogButton>(
               context: context,
               barrierLabel: barrierLabel ?? '',
