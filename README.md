@@ -1,6 +1,9 @@
 <div align="center">
     <img src="https://github.com/Skyost/RateMyApp/raw/master/images/logo.svg" height="200">
 </div>
+<p>
+    Prevent AlertDialog from not closing by clicking outside fix added.
+</p>
 
 # Rate my app !
 
